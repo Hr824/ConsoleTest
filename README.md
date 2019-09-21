@@ -1,2 +1,2 @@
 # ConsoleTest
-Test for console repostory
+Test for console repository
