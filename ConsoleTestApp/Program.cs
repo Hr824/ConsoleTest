@@ -10,7 +10,12 @@ namespace ConsoleTestApp
     {
         static void Main(string[] args)
         {
-            List<int> numbers = new List<int> { 10, 20, 30, 40, 50 };
+            int result = Multiply(5, 3);
+        }
+
+        public static int Multiply(int number1, int number2)
+        {
+            return number1 * number2;
         }
     }
 }
