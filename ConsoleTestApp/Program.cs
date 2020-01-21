@@ -17,5 +17,11 @@ namespace ConsoleTestApp
         {
             return number1 * number2;
         }
+
+
+        private int Add(int number1, int number2)
+        {
+            return number1 + number2;
+        }
     }
 }
