@@ -10,7 +10,9 @@ namespace ConsoleTestApp
     {
         static void Main(string[] args)
         {
-            int result = Multiply(5, 3);
+            int result1 = Multiply(5, 3);
+
+            int result2 = Add(2, 8);
         }
 
         public static int Multiply(int number1, int number2)
@@ -19,7 +21,7 @@ namespace ConsoleTestApp
         }
 
 
-        private int Add(int number1, int number2)
+        private static int Add(int number1, int number2)
         {
             return number1 + number2;
         }
