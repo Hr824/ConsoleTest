@@ -10,7 +10,7 @@ namespace ConsoleTestApp
     {
         static void Main(string[] args)
         {
-            int result = Multiply(5, 3);
+            int result = Multiply(50, 72);
         }
 
         public static int Multiply(int number1, int number2)
