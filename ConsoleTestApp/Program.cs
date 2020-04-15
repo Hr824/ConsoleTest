@@ -26,5 +26,10 @@ namespace ConsoleTestApp
         {
             return number1 + number2;
         }
+
+        private static string Hello(string nom)
+        {
+            return "Bonjour " + nom;
+        }
     }
 }
