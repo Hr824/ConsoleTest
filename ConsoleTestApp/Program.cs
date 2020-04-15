@@ -36,5 +36,10 @@ namespace ConsoleTestApp
         {
             return "Au revoir " + nom;
         }
+
+        private static string Majuscule(string nom)
+        {
+            return nom.ToUpper();
+        }
     }
 }
