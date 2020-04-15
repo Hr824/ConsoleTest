@@ -27,6 +27,11 @@ namespace ConsoleTestApp
             return number1 + number2;
         }
 
+        private static int Substract(int number1, int number2)
+        {
+            return number1 - number2;
+        }
+
         private static string Hello(string nom)
         {
             return "Bonjour " + nom;
