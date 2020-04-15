@@ -31,5 +31,10 @@ namespace ConsoleTestApp
         {
             return "Bonjour " + nom;
         }
+
+        private static string Bye(string nom)
+        {
+            return "Au revoir " + nom;
+        }
     }
 }
