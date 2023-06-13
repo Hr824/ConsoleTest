@@ -46,5 +46,10 @@ namespace ConsoleTestApp
         {
             return nom.ToUpper();
         }
+
+        private static string Minuscule(string nom)
+        {
+            return nom.ToLower();
+        }
     }
 }
